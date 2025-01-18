@@ -1,0 +1,39 @@
+* {
+    margin: unset;
+    padding: unset;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    min-height: 100vh;
+
+}
+
+.left-col {
+    background-image: url("./assets/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50vw;
+    color: #ffffff;
+    width: 400px;
+}
+
+.right-col {
+    background-color: #f9fafb;
+}
+
+.text-content{
+    padding: 2rem;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form {
+    padding: 2rem;
+    box-shadow: 0 4px 2px -2px rgb(163, 162, 162);
+
+}
