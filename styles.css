@@ -69,5 +69,19 @@ main {
 form {
     padding: 4rem;
     box-shadow: 0 4px 2px -2px rgb(163, 162, 162);
-
+}
+.field-container{
+    display: flex;
+    gap: 4rem;
+}
+legend{
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-bottom: 1rem;
 }
