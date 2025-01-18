@@ -3,6 +3,10 @@
     padding: unset;
     box-sizing: border-box;
 }
+@font-face{
+    font-family: 'Norse';
+    src: url("./assets/Norse-Bold.otf");
+}
 
 main {
     display: flex;
@@ -29,7 +33,10 @@ main {
     background-color: rgb(20, 20, 20, .5);
     padding: 1rem;
 }
-
+.odin-banner h1{
+    font-family: 'Norse', sans-serif;
+    font-size: 4rem;
+}
 .copyright {
     text-align: center;
     margin-top: auto;
