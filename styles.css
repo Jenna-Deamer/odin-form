@@ -17,21 +17,39 @@ main {
     background-size: cover;
     width: 50vw;
     color: #ffffff;
-    width: 400px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.odin-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20, .5);
+    padding: 1rem;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 1rem;
 }
 
 .right-col {
     background-color: #f9fafb;
 }
 
-.text-content{
+.text-content {
     padding: 2rem;
 }
-.form-container{
+
+.form-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 form {
     padding: 2rem;
     box-shadow: 0 4px 2px -2px rgb(163, 162, 162);
