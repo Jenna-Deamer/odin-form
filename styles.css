@@ -19,7 +19,7 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 50vw;
+    width: 500px;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -30,12 +30,14 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(20, 20, 20, .5);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 1rem;
+    margin-top: 25vh;
 }
 .odin-banner h1{
     font-family: 'Norse', sans-serif;
-    font-size: 4rem;
+    font-size: 5.5rem;
+    font-weight: unset;
 }
 .copyright {
     text-align: center;
