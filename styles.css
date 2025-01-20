@@ -68,7 +68,7 @@ main {
 
 form {
     padding: 4rem;
-    box-shadow: 0 4px 2px -2px rgb(163, 162, 162);
+    box-shadow: 10px 3px 10px 3px rgb(86, 86, 87);
 }
 .field-container{
     display: flex;
@@ -97,7 +97,6 @@ button{
     cursor: pointer;
     width: 200px;
     font-size: 1rem;
-
     box-shadow: 0 4px 2px -2px rgb(163, 162, 162);
     transition: background-color .3s;
 }
