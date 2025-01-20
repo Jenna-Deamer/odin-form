@@ -88,7 +88,20 @@ fieldset{
     border: unset; /*Removes browser default*/
 }
 label{
-   color: #555555;
+   color: #434343;
+   font-size: .8rem;
+   font-weight: 600;
+}
+input{
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    padding: .2rem;
+}
+input:user-invalid{
+    outline: 1px solid rgb(215, 52, 52);
+}
+input:user-focus{
+    outline: 1px solid #4761f3;
 }
 .button-container{
     margin: .5rem;
