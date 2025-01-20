@@ -85,3 +85,36 @@ fieldset{
     width: 200px;
     margin-bottom: 1rem;
 }
+.button-container{
+    margin: .5rem;
+}
+button{
+    background-color: #596D48;
+    color: #ffffff;
+    border: unset;
+    padding: .8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 200px;
+    font-size: 1rem;
+
+    box-shadow: 0 4px 2px -2px rgb(163, 162, 162);
+    transition: background-color .3s;
+}
+button:hover{
+    background-color: #4c5c3d;
+}
+button:active{
+    background-color: #3f4c32;
+}
+.button-container p{
+    margin-top: 1.5rem;
+}
+.button-container  a{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 600;
+}
+.button-container a:hover{
+    text-decoration: underline;
+}
